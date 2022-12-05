@@ -15,8 +15,8 @@ REGOLE
 
  let n1 = 18 /* Il datatype è di formato numerico anche decimale*/
  let nome = "Mario"  /* Il datatype è di tipo stringa e può contenere numeri e lettere*/
- let booleano = true  /* Il data type è di tipo booleano che dà come risultato true o false*/ 
- let v1 = null /* segnala l'assenza intenzionale di un oggetto*/
+ let booleano = true  /* Il data type è di tipo booleano che dà come risultato true o false rispetto al risultato*/ 
+ let v1 = null /* segnala l'assenza intenzionale di un oggetto come valore o testo*/
  let v2 = undefined /* segnala che l'oggetto non è definito*/
  
 /* ESERCIZIO 2
@@ -25,7 +25,7 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let name = "Vincenzo"
+const name = "Vincenzo"
 
 console.log ("Mio nome: " + name)
 
@@ -59,24 +59,17 @@ console.log ("La variabile X è il numero: " + x)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-name = "Vincenzo"
-const cognome = "Picone"
 
-/* const cognome = "Rossi" */
+/*name = "Picone"*/
 
-/*COMMENTO: non può essere modificato in quanto name è di tipo "const"*/
-
-console.log("Nome nuovo: "+ name)
-console.log("Cognome: " + cognome )
+/*COMMENTO: non può essere modificato in quanto name è di tipo "const" TypeError: Assignment to constant variable.*/
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-let number3 = 4
-let risultato3 = x - number3
-
-console.log ("La sottrazione fra la variabile X e 4 è: " + risultato3)
+let y = 4
+console.log ("La sottrazione fra la variabile X e 4 è: " + (x-y))
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -94,5 +87,6 @@ let name2 = "John"
 console.log ("I nomi sono diversi? " + name1 !== name2);
 
 name1 = name1.toLowerCase();
-console.log (name1 !== name2.toLowerCase())
+console.log (name1.toLowerCase !== name2.toLowerCase())
+
 
