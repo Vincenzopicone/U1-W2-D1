@@ -87,6 +87,5 @@ let name2 = "John"
 console.log ("I nomi sono diversi? " + name1 !== name2);
 
 name1 = name1.toLowerCase();
-console.log (name1.toLowerCase !== name2.toLowerCase())
-
+console.log (name1.toLowerCase() === name2.toLowerCase())
 
