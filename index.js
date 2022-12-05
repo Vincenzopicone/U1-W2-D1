@@ -91,7 +91,8 @@ console.log ("La sottrazione fra la variabile X e 4 è: " + risultato3)
 let name1 = "john"
 let name2 = "John"
 
-console.log (name1 !== name2);
+console.log ("I nomi sono diversi? " + name1 !== name2);
 
 name1 = name1.toLowerCase();
 console.log (name1 !== name2.toLowerCase())
+
