@@ -15,7 +15,7 @@ REGOLE
 
  let n1 = 18 /* Il datatype è di formato numerico anche decimale*/
  let nome = "Mario"  /* Il datatype è di tipo stringa e può contenere numeri e lettere*/
- let verifica = true  /* Il data type è di tipo booleano che da come risultato true o false*/ 
+ let booleano = true  /* Il data type è di tipo booleano che dà come risultato true o false*/ 
  let v1 = null /* segnala l'assenza intenzionale di un oggetto*/
  let v2 = undefined /* segnala che l'oggetto non è definito*/
  
