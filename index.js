@@ -59,8 +59,10 @@ console.log ("La variabile X è il numero: " + x)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-name = "Picone"
+name = "Vincenzo"
 const cognome = "Picone"
+
+/* const cognome = "Rossi" */
 
 /*COMMENTO: non può essere modificato in quanto name è di tipo "const"*/
 
